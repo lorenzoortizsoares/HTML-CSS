@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Star Wars';
+    src: url('STJEDISE.TTF') format('truetype');
+}
+@font-face {
+    font-family: 'Runas';
+    src: url('rune.ttf') format(truetype);
+}
+body{
+    font: 1.5em 'Runas';
+    text-align: center;
+    margin-right: 50%;
+}
+h1{
+    font: 3.1em 'Star Wars';
+}

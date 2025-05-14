@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body{
+    background-color: #8198CC;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+   
+}
+h1#principal{
+    text-align: center;
+    background-color:#1B3572;
+    font: bold 3.5em 'Times New Roman', 'serif';
+    color: white;
+    
+     }
+.aprendendo{
+    background-color: #E44D26;
+    color: white;
+    font-weight: 500;
+    text-decoration:none;
+}
+h1{
+    background-color:#3595CF;
+    color: white;
+    font-weight: 500;
+}
+h2{
+    color: #3669E0;
+    text-align: right;
+}
+.basico{
+    color: gray;
+}
+.intermediario{
+    color: chartreuse;
+}
+.experiente{
+    color: blueviolet;
+}

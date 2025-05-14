@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links Personalizados</title>
+    <style>
+        
+        .site{
+         color: black;   
+         text-decoration: none;
+        }
+        .site:visited{
+        color: rgb(0, 255, 64);
+       }
+        .site:hover{
+          
+            text-decoration: underline;
+            color: rgb(255, 6, 255);
+        }
+        .site:active{
+            color: rgb(255, 145, 0);
+        }
+       .site::after{
+        content: '⚠️⚠️⚠️';
+       }
+       
+
+    </style>
+</head>
+<body>
+    <h1>Link Personalizados</h1>
+   
+        <a class="site" href="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/aulas/modulo-2-2/modulos/capitulo-15-aula-04-pseudo-elementos-em-css/" target="_blank" rel="external">Site Curso em Vídeo</a>
+        
+
+</body>
+</html>

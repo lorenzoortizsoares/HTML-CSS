@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags de Agrupamento</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(230, 159, 159);
+            margin: 10px;
+            width: 646px;
+        }
+
+
+        header{
+            background-color: rgba(232, 255, 255, 0.842);
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+        h1{
+            margin: 5px ;
+        }
+        nav{
+            background-color: rgb(181, 241, 181);
+            padding: 3px;
+            text-align: center;
+            box-shadow: 2px 3px 3px 2px rgba(0, 0, 0, 0.342);
+        }
+        nav>a{
+
+            text-decoration: none;
+        }
+
+
+        main{
+            height: 500px;
+            background-color:white;
+        }
+        main>section{
+        background-color: rgb(255, 248, 148);
+        height: 425px;
+        width: 400px;
+        margin:10px 5px 15px 15px ;
+        
+        }
+        .principal{
+            padding: 5px;
+            margin-bottom: 0px;
+        }
+        .promocoes{
+            padding: 10px;
+        }
+        section>.imagem{
+            background-color: lightslategrey;
+            margin: 0px 11px;
+            height: 245px;
+            box-shadow: 6px 5px 10px #00000069;
+            border-radius: 0px 20px;
+        }
+        .imagem>p{
+            padding-top:  106px;;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .minisaia{
+            background-color: aquamarine;
+            margin: 11px;
+            padding-bottom: 9px;
+            height: 78px;
+        }
+        .minisaia>.pminisaia{
+            padding-left: 5px;
+            padding-top: 24px;
+            margin-bottom: -34px;
+            width: 90px;
+            margin-top: 0px;
+            
+        }
+        
+        .imagem02{
+            background-color: lightsalmon;
+            width: 85px;
+            margin-left: 282px;
+            height: 67px;
+        }
+        .imagem02>p{
+            text-align: center;
+            padding-top: 20px ;
+            margin: 0px;
+        }
+        .modelo{
+            margin-top: -439px;
+            margin-bottom: 0px;
+            margin-left: 428px;
+            padding-top: 0px;
+            padding-right: 0px;
+            padding-bottom: 1px;
+            padding-left: 0px;
+            background-color: rgb(109, 85, 109);
+            width: 208px;
+            height: 422px;
+            margin-right: 0px;
+            
+        }
+        .modelo>p{
+            margin-top: 0px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+            padding-top: 203px;
+            padding-right: 0px;
+            padding-bottom: 0px;
+            padding-left: 0px;
+            color: white;
+            text-align: center;
+            
+        }
+        footer{
+            background-color:black ;
+            color: white;
+            text-align: center;
+            height: 40px;
+        }
+        footer>p{
+            margin-top: 15px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+            padding-top: 10px;
+            padding-right: 0px;
+            padding-bottom: 0px;
+            padding-left: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cabeçalho</h1>
+        <nav>
+            <a href="#">Saias</a>
+            <a href="#">Calças</a>
+            <a href="#">Catálogo</a>
+        </nav>
+    </header>
+    <main>
+        <h2 class="principal">Principal</h2>
+        <section>
+            <h2 class="promocoes">Promoções</h2>
+            <article class="imagem">
+                <p>Imagem vestido</p>
+            </article>
+            <article class="minisaia">
+                <p class="pminisaia">Mini-saia</p>
+                <aside class="imagem02"><p>Imagem</p></aside>
+            </article>
+        </section>
+        <aside class="modelo">
+            <p>Modelo Imagem</p>
+        </aside>
+    </main>
+    <footer>
+        <p>Desenvolvido por Lorenzo Ortiz Soares</p>
+    </footer>
+</body>
+</html>
